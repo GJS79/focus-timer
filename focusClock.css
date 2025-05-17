@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#body{
+    /* border: 2px solid red; */
+    width: auto;
+    height: 550px;
+
+    background-image: url(https://res.cloudinary.com/doxampopt/image/upload/v1747237068/1226356_qrsath.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#clock{
+    /* border: 2px solid green; */
+    width: 39%;
+    height: 550px;
+    margin-left: 780px;
+    background-color:#414343;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   padding-bottom: 20px;
+    
+}
+#clock>i{
+    /* border: 2px solid green; */
+    color: whitesmoke;
+    font-family:cursive;
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+.buttons{
+    font-family:fantasy;
+    font-size: 40px;
+    font-weight: bolder;
+    /* border: 2px solid green; */
+    width: fit-content;
+    
+
+}
+button{
+background-color: #414343;
+    color: white;
+    width: 70px;
+    height: 40px;
+}
+#button{
+     /* border: 2px solid green;  */
+     width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#timmer{
+    /* border: 2px solid rebeccapurple;   */
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+#circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 203, 205);
+}
+#time1{
+     /* border: 2px solid rebeccapurple;  */
+    width: 150px;
+    height: 70px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+#time3{
+     /* border: 2px solid rebeccapurple;  */
+    width: 5px;
+    height: 70px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+#time2{
+     /* border: 2px solid rebeccapurple;  */
+    width: 150px;
+    height: 70px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: monospace;
+}
+/* /* #Start{
+    /* border: 2px solid rebeccapurple; 
+}  */
+#message{
+      /* border: 2px solid rebeccapurple;  */
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    font-family:cursive;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
